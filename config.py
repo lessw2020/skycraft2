@@ -18,6 +18,9 @@ for name, uu, uv in textureMap:
 
 print(f"--> Loaded:  block styles = {g_blockStyles}")
 
-g_snowHeight = 2  # control height where snow begins...
+g_snowHeight = 2  # control height where snow begins... 
+
+g_sixAxis = [(1,0,0), (-1,0,0), (0,1,0), (0,-1,0), (0,0,1), (0,0,-1),]
+
 
 
